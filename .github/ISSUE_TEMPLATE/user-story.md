@@ -1,22 +1,7 @@
----
-name: User Story
-about: 'The Template is for creating user stories '
-title: ''
-labels: ''
-assignees: ''
+**User Story:**
+As a customer, I need a shopping cart, so that I can purchase multiple items at once.
 
----
-
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
-   
- ### Details and Assumptions
- * [document what you know]
-   
- ### Acceptance Criteria  
-   
- ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+**Acceptance Criteria:**
+Given that I am on a product page
+When I click the "Add to Cart" button
+Then the item should be added to my shopping cart and the cart counter should increase by 1.
